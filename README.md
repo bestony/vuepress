@@ -13,7 +13,9 @@
 
 <h2 align="center">Supporting VuePress</h2>
 
-Maintaining and developing new features to VuePress takes a considerable amount of time (if you know that Gastby's team is a company), and I am currently exploring the possibility of working on VuePress fulltime.
+Maintaining and developing new features to VuePress takes a considerable amount
+of time (if you know that Gastby's team is a company), and I am currently
+exploring the possibility of working on VuePress fulltime.
 
 - [Sponsor ULIVZ on Patreon](https://www.patreon.com/ulivz)
 - [Sponsor Vue.js](https://vuejs.org/support-vuejs)
@@ -29,16 +31,20 @@ yarn add vuepress -D
 ## Showcase
 
 - [Awesome VuePress](https://github.com/ulivz/awesome-vuepress)
-- [vuepress.gallery](https://vuepress.gallery) (by [@vicbergquist](https://twitter.com/vicbergquist))
-- [vuepress.tools](https://vuepress.tools/) (By [Ahmad Mostafa](https://ahmadmostafa.com))
+- [vuepress.gallery](https://vuepress.gallery) (by
+  [@vicbergquist](https://twitter.com/vicbergquist))
+- [vuepress.tools](https://vuepress.tools/) (By
+  [Ahmad Mostafa](https://ahmadmostafa.com))
 
 ## Documentation
 
-Docs are available at https://vuepress.vuejs.org/ - we are still working on refining it and contributions are welcome!
+Docs are available at https://vuepress.vuejs.org/ - we are still working on
+refining it and contributions are welcome!
 
 ## Contribution
 
-Want to contribute? Check our [issues for beginners](https://github.com/vuejs/vuepress/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22)!
+Want to contribute? Check our
+[issues for beginners](https://github.com/vuejs/vuepress/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22)!
 
 ```bash
 yarn bootstrap # Install and link dependencies for this lerna repo
@@ -46,11 +52,15 @@ yarn dev  # serves VuePress' own docs with itself
 yarn test # make sure your code change pass the test
 ```
 
-If you don't have a local checkout, you can also open [VuePress in Gitpod](https://gitpod.io/#https://github.com/vuejs/vuepress/blob/master/packages/docs/docs/README.md), a free online IDE for GitHub.
+If you don't have a local checkout, you can also open
+[VuePress in Gitpod](https://gitpod.io/#https://github.com/vuejs/vuepress/blob/master/packages/docs/docs/README.md),
+a free online IDE for GitHub.
 
-If you intend to make `"substantial"` changes to VuePress or its documentation, please checkout [VuePress RFCs](./rfcs/README.md).
+If you intend to make `"substantial"` changes to VuePress or its documentation,
+please checkout [VuePress RFCs](./rfcs/README.md).
 
-If you have a VuePress-related project/component/tool, add it with a pull request to [this curated list](https://github.com/ulivz/awesome-vuepress)!
+If you have a VuePress-related project/component/tool, add it with a pull
+request to [this curated list](https://github.com/ulivz/awesome-vuepress)!
 
 ## Contributors
 
@@ -82,16 +92,19 @@ If you have a VuePress-related project/component/tool, add it with a pull reques
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
+
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ### Code Contributors
 
-This project exists thanks to all the people who contribute. [[Contribute](.github/CONTRIBUTING.md)].
+This project exists thanks to all the people who contribute.
+[[Contribute](.github/CONTRIBUTING.md)].
 <a href="https://github.com/vuejs/vuepress/graphs/contributors"><img src="https://opencollective.com/vuepress/contributors.svg?width=890&button=false" /></a>
 
 ### Financial Contributors
 
-Become a financial contributor and help us sustain our community. [[Contribute](https://opencollective.com/vuepress/contribute)]
+Become a financial contributor and help us sustain our community.
+[[Contribute](https://opencollective.com/vuepress/contribute)]
 
 #### Individuals
 
@@ -99,7 +112,9 @@ Become a financial contributor and help us sustain our community. [[Contribute](
 
 #### Organizations
 
-Support this project with your organization. Your logo will show up here with a link to your website. [[Contribute](https://opencollective.com/vuepress/contribute)]
+Support this project with your organization. Your logo will show up here with a
+link to your website.
+[[Contribute](https://opencollective.com/vuepress/contribute)]
 
 <a href="https://opencollective.com/vuepress/organization/0/website"><img src="https://opencollective.com/vuepress/organization/0/avatar.svg"></a>
 <a href="https://opencollective.com/vuepress/organization/1/website"><img src="https://opencollective.com/vuepress/organization/1/avatar.svg"></a>
