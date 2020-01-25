@@ -4,7 +4,7 @@
  * Module dependencies.
  */
 
-const { chalk } = require('@vuepress/shared-utils')
+const {chalk} = require('@vuepress/shared-utils')
 const CAC = require('cac')
 
 /**
@@ -14,10 +14,7 @@ const CAC = require('cac')
  * @returns {Promise<void>}
  */
 
-async function CLI ({
-  beforeParse,
-  afterParse
-}) {
+async function CLI({beforeParse, afterParse}) {
   const cli = CAC()
   beforeParse && await beforeParse(cli)
   cli.parse(process.argv)
@@ -30,7 +27,7 @@ async function CLI ({
  * @returns {function(...[*]): (*|Promise|Promise<T | never>)}
  */
 
-function wrapCommand (fn) {
+function wrapCommand(fn) {
   return (...args) => {
     return fn(...args).catch(err => {
       console.error(chalk.red(err.stack))
@@ -45,8 +42,8 @@ function wrapCommand (fn) {
  * @returns {boolean}
  */
 
-function isKnownCommand (argv) {
-  return ['dev', 'build', 'eject', 'info'].includes(argv[0])
+function isKnownCommand(argv) {
+  return [ 'dev', 'build', 'eject', 'info' ].includes(argv[0])
 }
 
 module.exports = {
