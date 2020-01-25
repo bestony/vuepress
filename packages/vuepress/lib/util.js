@@ -1,11 +1,11 @@
-'use strict'
+"use strict";
 
 /**
  * Module dependencies.
  */
 
-const {chalk} = require('@vuepress/shared-utils')
-const CAC = require('cac')
+const { chalk } = require("@vuepress/shared-utils");
+const CAC = require("cac");
 
 /**
  * Bootstrap a CAC cli
@@ -14,11 +14,11 @@ const CAC = require('cac')
  * @returns {Promise<void>}
  */
 
-async function CLI({beforeParse, afterParse}) {
-  const cli = CAC()
-  beforeParse && await beforeParse(cli)
-  cli.parse(process.argv)
-  afterParse && await afterParse(cli)
+async function CLI({ beforeParse, afterParse }) {
+  const cli = CAC();
+  beforeParse && (await beforeParse(cli));
+  cli.parse(process.argv);
+  afterParse && (await afterParse(cli));
 }
 
 /**
@@ -30,10 +30,10 @@ async function CLI({beforeParse, afterParse}) {
 function wrapCommand(fn) {
   return (...args) => {
     return fn(...args).catch(err => {
-      console.error(chalk.red(err.stack))
-      process.exitCode = 1
-    })
-  }
+      console.error(chalk.red(err.stack));
+      process.exitCode = 1;
+    });
+  };
 }
 
 /**
@@ -43,11 +43,11 @@ function wrapCommand(fn) {
  */
 
 function isKnownCommand(argv) {
-  return [ 'dev', 'build', 'eject', 'info' ].includes(argv[0])
+  return ["dev", "build", "eject", "info"].includes(argv[0]);
 }
 
 module.exports = {
   CLI,
   isKnownCommand,
   wrapCommand
-}
+};
